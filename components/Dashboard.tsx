@@ -50,7 +50,7 @@ export function Dashboard({
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
               <h2 className="text-xl sm:text-2xl font-medium mb-1 sm:mb-2">
-                Dashboard
+                Dashboard 
               </h2>
               <p className="text-sm sm:text-base text-gray-500">
                 Manage your assets and yields
