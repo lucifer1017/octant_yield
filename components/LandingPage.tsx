@@ -7,7 +7,7 @@ export function LandingPage() {
       <div className="max-w-xl w-full space-y-8 sm:space-y-12">
         <div className="space-y-4 sm:space-y-6">
           <h1 className="text-3xl sm:text-5xl font-medium tracking-tight">
-            Hold My Yield
+            OctaYield
           </h1>
           <p className="text-base sm:text-lg text-gray-500 leading-relaxed">
             Automatically move your assets between Morpho and Aave to earn the

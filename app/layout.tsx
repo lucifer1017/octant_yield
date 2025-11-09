@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hold My Yield",
+  title: "OctaYield",
   description:
-    "Hold My Yield is a simple app that lets you automatically move your asset between morpho and aave to earn the highest yield.",
+    "OctaYield is a simple app that lets you automatically move your asset between morpho and aave to earn the highest yield.",
 };
 
 export default function RootLayout({

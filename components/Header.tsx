@@ -7,7 +7,7 @@ export function Header({ logout }: HeaderProps) {
     <header className="border-b">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
         <span className="text-sm sm:text-base font-medium">
-          Hold My Yield
+          OctaYield
         </span>
         <button
           onClick={logout}

@@ -2,7 +2,7 @@ import 'dotenv/config';
 import cron from 'node-cron';
 import { checkAndRebalanceAllUsers } from './rebalance.js';
 
-console.log('🚀 Hold My Yield - Rebalance Worker Started');
+console.log('🚀 OctaYield - Rebalance Worker Started');
 console.log('⏰ Schedule: Every 3 hours');
 console.log('📍 Environment:', process.env.NODE_ENV || 'production');
 
@@ -12,13 +12,13 @@ cron.schedule('0 */3 * * *', async () => {
   console.log('🔄 Starting rebalance cycle...');
   console.log('🕐 Time:', new Date().toISOString());
   console.log('='.repeat(60));
-  
+
   const startTime = Date.now();
-  
+
   try {
     const results = await checkAndRebalanceAllUsers();
     const duration = ((Date.now() - startTime) / 1000).toFixed(2);
-    
+
     console.log('\n' + '='.repeat(60));
     console.log('✅ Rebalance cycle complete!');
     console.log('='.repeat(60));
