@@ -16,3 +16,4 @@ contract MockStrategy is ERC4626 {
         IMintableERC20(address(asset())).mint(address(this), amount);
     }
 }
+

@@ -134,3 +134,4 @@ contract YieldHeroVaultTest is Test {
         usdc.approve(address(vault), type(uint256).max);
     }
 }
+
